@@ -11,6 +11,11 @@ String inverterString(String word) {
 }
 
 void main() {
+  // Desenvolvimento
+  print('peteca'.split('')); // Passo 1
+  print('peteca'.split('').reversed); // Passo 2
+  print('peteca'.split('').reversed.join()); // Passo 3
+
   stdout.write("Escreva uma palavra: ");
   String? word = stdin.readLineSync();
   print("$word ao contrário é ${inverterString(word!)}");

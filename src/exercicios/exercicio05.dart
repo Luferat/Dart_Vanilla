@@ -7,7 +7,11 @@ Maior de Três Números:
 import 'dart:math';
 
 int maiorDeTres(int a, int b, int c) {
+
+  // Insere os números em um Array
   List<int> nums = [a, b, c];
+
+  // Extrai o maior deles usando 'List.reduce(max)' ← 'max' depende de 'dart:math'.
   return nums.reduce(max);
 }
 
